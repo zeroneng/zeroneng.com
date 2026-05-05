@@ -523,7 +523,12 @@ img {
 .community-copy,
 .story-copy {
   display: grid;
-  gap: 14px;
+  gap: 8px;
+}
+
+.story-copy p,
+.community-copy p {
+  margin: 0;
 }
 
 .story-image {
