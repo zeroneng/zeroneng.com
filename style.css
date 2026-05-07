@@ -389,8 +389,7 @@ img {
 }
 
 #trust-features:checked ~ .trust-tabs label[for="trust-features"],
-#trust-specifications:checked ~ .trust-tabs label[for="trust-specifications"],
-#trust-documentation:checked ~ .trust-tabs label[for="trust-documentation"] {
+#trust-specifications:checked ~ .trust-tabs label[for="trust-specifications"] {
   color: var(--text);
   border-color: rgba(36, 200, 255, 0.35);
   background: rgba(36, 200, 255, 0.08);
@@ -398,8 +397,7 @@ img {
 }
 
 #trust-features:checked ~ .trust-content-wrap .trust-content-features,
-#trust-specifications:checked ~ .trust-content-wrap .trust-content-specifications,
-#trust-documentation:checked ~ .trust-content-wrap .trust-content-documentation {
+#trust-specifications:checked ~ .trust-content-wrap .trust-content-specifications {
   display: grid;
 }
 
