@@ -145,6 +145,10 @@ img {
   color: var(--text);
 }
 
+.theme-toggle {
+  display: none !important;
+}
+
 .topnav a.nav-cta,
 .topnav a.nav-cta:hover {
   color: #fff;
@@ -199,7 +203,8 @@ img {
 .content-section p:not(.section-tag),
 .check-list li,
 .trust-label,
-.spec-label {
+.spec-label,
+.glass-card span {
   color: var(--copy);
   line-height: 1.75;
 }
@@ -257,6 +262,32 @@ img {
 
 .hero-media {
   position: relative;
+}
+
+.glass-card {
+  position: absolute;
+  max-width: 250px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: rgba(8, 8, 12, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.glass-card strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.top-card {
+  top: 26px;
+  left: -28px;
+}
+
+.bottom-card {
+  right: -24px;
+  bottom: 34px;
 }
 
 .hero-media img,
